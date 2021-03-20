@@ -8,3 +8,4 @@ dev/node_modules/
 node_modules/
 index.html
 service-worker.js
+package-lock.json
