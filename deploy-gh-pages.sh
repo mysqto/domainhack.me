@@ -4,8 +4,8 @@ mkdir out;
 echo "Starting to deploy..."
 ( cd out
  git init
- git config user.name ${GIT_NAME}
- git config user.email ${GIT_EMAIL}
+ git config user.name "${GIT_NAME}"
+ git config user.email "${GIT_EMAIL}"
 
  mkdir dist
  cp -r ../dist/* ./dist/
